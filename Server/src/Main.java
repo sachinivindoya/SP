@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             // create server socket
-            ServerSocket serverSocket = new ServerSocket(65535);
+            ServerSocket serverSocket = new ServerSocket(4000);
             // accept and create new socket
             Socket socket =serverSocket.accept();
 
